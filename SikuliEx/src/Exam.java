@@ -20,5 +20,6 @@ public class Exam
 		ImageIO.write(sc.getImage(), "png", new File("D:\\scree.png"));*/
 		System.out.println(driver.getCurrentUrl());
 		driver.getPageSource();
+		System.out.println("hi");
 		}
 }
